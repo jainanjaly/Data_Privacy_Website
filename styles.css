@@ -207,25 +207,7 @@ html {
     margin-bottom: 20px;
 }
 
-/* Scroll-to-Top Button */
-#scrollToTopBtn {
-    display: none;
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    background: #18bc9c;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background 0.3s;
-}
 
-#scrollToTopBtn:hover {
-    background: #16a085;
-}
 
 /* Footer Styles */
 footer {
@@ -236,4 +218,32 @@ footer {
 }
 h1{
     color: white;
+}
+/* Scroll-to-Top Button */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px; /* Adjusted for better visibility */
+    right: 20px;  /* Adjusted for better visibility */
+    background: #18bc9c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+#scrollToTopBtn:hover {
+    background: #16a085;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #scrollToTopBtn {
+        bottom: 15px; /* Adjust for smaller screens */
+        right: 15px;  /* Adjust for smaller screens */
+    }
 }
