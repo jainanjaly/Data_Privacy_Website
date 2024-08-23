@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+header .logo h1 {
+    float: left;
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav {
+    float: right;
+    position: relative;
+}
+
+header nav  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav  {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav  {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav {
+    color: #18bc9c;
+}
+
+
+
+h1, h2, h3 {
+    font-size: 28px;
+    color: #007acc;
+    margin-bottom: 15px;
+}
+
+
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Home Section Styles */
+.home-section {
+    background: url('bg.jpeg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    background: rgba(44, 62, 80, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: auto;
+    height: 500px;
+    align-content: center;
+}
+
+.home-content h2 {
+    font-size: 50px;
+    /* font-weight: bolder; */
+    margin-bottom: 10px;
+}
+
+.home-content p {
+    font-size: 22px;
+}
+
+.cta-button {
+    background: #18bc9c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 30px;
+    width: 100px;
+}
+
+.cta-button:hover {
+    background: #16a085;
+}
+
+/* Card Structure */
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section Styles */
+.about-section {
+    background: url('3.jpeg') no-repeat center center/cover;
+    /* background: #ecf0f1; */
+    padding: 50px 0;
+}
+
+.about-section h2, .about-section h3 {
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Issues Section Styles */
+.issues-section {
+    background: url('4.jpeg') no-repeat center center/cover;
+    padding: 50px 0;
+}
+
+.issues-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.issues-section p {
+   font-size: 18px;
+}
+
+.issue {
+    margin-bottom: 30px;
+}
+
+/* Latest News Section Styles */
+.news-section {
+    background: url('2.jpeg') no-repeat center center/cover;
+    /* background: #ecf0f1; */
+    padding: 50px 0;
+}
+
+.news-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.news-section p {
+    font-size: 18px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+/* Resources Section Styles */
+.resources-section {
+    background: url('4.jpeg') no-repeat center center/cover;
+    padding: 50px 0;
+}
+
+.resources-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.resources-section p {
+   font-size: 18px;
+}
+.resource-item {
+    margin-bottom: 20px;
+}
+
+/* Scroll-to-Top Button */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #18bc9c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+#scrollToTopBtn:hover {
+    background: #16a085;
+}
+
+/* Footer Styles */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+h1{
+    color: white;
+}
